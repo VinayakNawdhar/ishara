@@ -14,15 +14,15 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "Ishara",
-  description: "Ecommerce for fashion",
+  title: "Ishara® | Official",
+  description: " Sustainable. Ethical. Timeless.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/logo-ishara.jpg" sizes="any" />
       </head>
       <body className={`${poppins.variable} ${playfair.variable} antialiased`}>
         {children}
